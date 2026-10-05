@@ -1,0 +1,19 @@
+{
+  "name": "loop-test-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test-run": "playwright test",
+    "test-run:ui-mode": "playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "dotenv": "^18.0.5",
+    "typescript": "^7.0.2"
+  }
+}
